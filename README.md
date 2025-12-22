@@ -1,2 +1,116 @@
-# contact-extractor-vcf-form
-Mobile-friendly Flask web app to extract phone numbers from TXT files and export them as VCF contacts.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rtk-anolegend/assets/main/txt-to-vcf-banner.png" alt="TXT to VCF Contact Extractor" width="100%">
+</p>
+
+<h1 align="center">📱 TXT to VCF Contact Extractor</h1>
+
+<p align="center">
+  <b>Convert text-based phone numbers into import-ready contacts</b><br>
+  Fast • Mobile-Friendly • Clean UI
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue">
+  <img src="https://img.shields.io/badge/Flask-Web%20App-black">
+  <img src="https://img.shields.io/badge/UI-Mobile%20Friendly-success">
+  <img src="https://img.shields.io/badge/Status-Stable-green">
+</p>
+
+---
+
+## ✨ Overview
+
+**TXT to VCF Contact Extractor** is a lightweight web application designed to quickly extract phone numbers from text files and convert them into **VCF (vCard)** format.
+
+The generated VCF file can be directly imported into:
+- Android phones  
+- iPhones  
+- Google Contacts  
+- Any modern contact manager  
+
+Built with a focus on **simplicity, speed, and real-world usability**.
+
+---
+
+## 🚀 Key Highlights
+
+✔ Handles mixed text files (names, symbols, random text)  
+✔ Smart phone number detection  
+✔ Automatic duplicate removal  
+✔ One-click VCF generation  
+✔ Optimized for mobile browsers  
+✔ Clean, distraction-free interface  
+
+---
+
+## 🖼️ Interface Preview
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rtk-anolegend/assets/main/txt-to-vcf-ui.png" alt="App UI" width="360">
+</p>
+
+<p align="center">
+  <i>Minimal, modern UI designed for daily use</i>
+</p>
+
+---
+
+## ⚙️ How It Works
+
+1. Open the web app in your browser  
+2. Upload a `.txt` file containing phone numbers  
+3. Click **Generate VCF**  
+4. Download the VCF file  
+5. Import contacts into your phone  
+
+No login. No tracking. No clutter.
+
+---
+
+## 🧠 Technology Used
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,flask,html,css" />
+</p>
+
+- **Python** → Core logic & data processing  
+- **Flask** → Lightweight backend framework  
+- **HTML5** → Semantic, accessible structure  
+- **CSS3** → Responsive, modern UI styling  
+
+Designed with a clear separation between frontend and backend.
+
+---
+
+## 📊 Language Breakdown
+
+- 🐍 **Python** – Contact extraction logic & VCF generation  
+- 🌐 **HTML** – UI structure and form handling  
+- 🎨 **CSS** – Styling, layout, and responsiveness  
+
+---
+
+## 👨‍💻 Developer
+
+<p align="center">
+  <b>RTK</b><br>
+  <a href="https://instagram.com/tyagirtk">Instagram • @tyagirtk</a><br>
+  <a href="https://github.com/rtk-anolegend">GitHub • rtk-anolegend</a>
+</p>
+
+<p align="center">
+  <i>Focused on building practical tools with clean UI and scalable logic.</i>
+</p>
+
+---
+
+## 📜 License
+
+This project is released under the **MIT License**.  
+You are free to use, modify, and distribute it with proper attribution.
+
+---
+
+<p align="center">
+  ⭐ If this project helped you, consider giving it a star.
+</p>
