@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rtk-anolegend/assets/main/txt-to-vcf-banner.png" alt="TXT to VCF Contact Extractor" width="100%">
+  <img src="https://cdn-icons-png.flaticon.com/512/3059/3059518.png" width="120" alt="Contact Extractor">
 </p>
 
 <h1 align="center">📱 TXT to VCF Contact Extractor</h1>
