@@ -1,0 +1,210 @@
+/* ==================================================
+   GLOBAL RESET & VARIABLES
+   ================================================== */
+:root {
+  --bg-main: #020617;
+  --bg-card: #111827;
+  --bg-input: #1f2937;
+
+  --text-main: #ffffff;
+  --text-muted: #94a3b8;
+  --text-subtle: #cbd5f5;
+
+  --primary: #2563eb;
+  --primary-soft: rgba(37, 99, 235, 0.18);
+
+  --radius-lg: 16px;
+  --radius-md: 12px;
+  --radius-sm: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ==================================================
+   BASE
+   ================================================== */
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+  background: linear-gradient(135deg, #0f172a, var(--bg-main));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-main);
+}
+
+/* ==================================================
+   LAYOUT
+   ================================================== */
+.app-container {
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 390px;
+  background: linear-gradient(180deg, #111827, #0b1220);
+  border-radius: var(--radius-lg);
+  padding: 26px 24px 24px;
+  box-shadow:
+    0 25px 50px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.03);
+}
+
+/* ==================================================
+   HEADER
+   ================================================== */
+.card-header {
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.icon-wrapper {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 14px;
+  border-radius: 16px;
+  background: var(--primary-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: #93c5fd;
+}
+
+.app-title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+}
+
+.app-subtitle {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-subtle);
+}
+
+/* ==================================================
+   FORM
+   ================================================== */
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 10px;
+}
+
+.file-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #a5b4fc;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.file-input {
+  width: 100%;
+  padding: 13px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: var(--bg-input);
+  color: var(--text-main);
+  font-size: 14px;
+}
+
+.file-input::file-selector-button {
+  margin-right: 12px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  background: #1e293b;
+  color: #e5e7eb;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.file-input::file-selector-button:hover {
+  background: #334155;
+}
+
+/* ==================================================
+   BUTTON
+   ================================================== */
+.submit-btn {
+  margin-top: 6px;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  border: none;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.submit-btn:hover {
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.35);
+}
+
+.submit-btn:active {
+  transform: scale(0.97);
+}
+
+/* ==================================================
+   HINT TEXT
+   ================================================== */
+.hint-text {
+  margin-top: 18px;
+  font-size: 12px;
+  text-align: center;
+  color: var(--text-muted);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ==================================================
+   FOOTER
+   ================================================== */
+.card-footer {
+  margin-top: 22px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.card-footer a {
+  color: #93c5fd;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.card-footer a:hover {
+  text-decoration: underline;
+}
+
+.dot {
+  opacity: 0.4;
+}

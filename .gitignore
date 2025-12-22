@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated output files
+contacts.vcf
+
+# Uploaded files
+uploads/
+
+# Environment / secrets
+.env
+
+# OS files
+.DS_Store
