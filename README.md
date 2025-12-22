@@ -16,7 +16,9 @@
   <img src="https://img.shields.io/badge/Status-Stable-green">
 </p>
 
----
+---![Termux Install](https://img.shields.io/badge/Install-Termux%20Ready-brightgreen?logo=termux&style=flat)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Flask](https://img.shields.io/badge/Flask-Web%20App-black)
 
 ## ✨ Overview
 
