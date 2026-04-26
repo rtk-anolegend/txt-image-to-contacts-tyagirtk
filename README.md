@@ -109,3 +109,67 @@ RTK
 Instagram: https://instagram.com/tyagirtk
 
 ---
+⚙️ Termux Installation Guide (Android)
+
+Follow these steps to run the project on Termux:
+
+1️⃣ Update packages
+
+pkg update && pkg upgrade
+
+2️⃣ Install required system packages
+
+pkg install python clang make cmake ninja pkg-config libopenblas
+
+3️⃣ Set build flags (important for numpy/pandas)
+
+export CFLAGS="-O3"
+export LDFLAGS="-lopenblas"
+
+4️⃣ Upgrade pip tools
+
+pip install --upgrade pip setuptools wheel cython
+
+5️⃣ Install Python dependencies
+
+pip install numpy
+pip install pandas
+pip install flask pillow pytesseract openpyxl
+
+6️⃣ Install Tesseract OCR
+
+pkg install tesseract
+
+7️⃣ Run the app
+
+python app.py
+
+Then open in browser:
+
+http://localhost:5000
+
+---
+
+⚠️ Notes
+
+- Installing "numpy" and "pandas" may take time on Termux.
+- Ensure enough storage and stable internet.
+- If build fails, re-run installation commands.
+
+---
+
+💻 Installation (PC / Laptop)
+
+pip install -r requirements.txt
+python app.py
+
+---
+
+🚀 Features
+
+- Extract phone numbers from TXT files
+- OCR support (Image → Text → Numbers)
+- Export formats:
+  - VCF (Contacts)
+  - CSV
+  - Excel
