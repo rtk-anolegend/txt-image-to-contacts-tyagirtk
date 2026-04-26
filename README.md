@@ -70,7 +70,7 @@ pip install numpy pandas flask pillow pytesseract openpyxl
 
 6️⃣ Run app
 
-python app.py
+python contact.py
 
 Open:
 
@@ -81,7 +81,7 @@ http://localhost:5000
 💻 Installation (PC / Laptop)
 
 pip install -r requirements.txt
-python app.py
+python contact.py
 
 ---
 
@@ -111,7 +111,7 @@ python app.py
 
 🧩 Project Structure
 
-├── app.py
+├── contact.py
 ├── templates/
 ├── static/
 ├── screenshots/
@@ -171,36 +171,7 @@ If you like this project:
 
 ---
 
-<p align="center">
-  Made with ❤️ by RTK
-</p>
-1. Update packages
 
-pkg update && pkg upgrade
-
-2. Install dependencies
-
-pkg install python tesseract clang make cmake ninja pkg-config libopenblas
-
-3. Setup environment
-
-pip install --upgrade pip setuptools wheel cython
-
-4. Install Python packages
-
-pip install -r requirements.txt
-
----
-
-▶️ Run the App
-
-python newapp.py
-
-Open in browser:
-
-http://localhost:5000
-
----
 
 📁 Supported Inputs
 
@@ -256,47 +227,6 @@ MIT License
 RTK
 Instagram: https://instagram.com/tyagirtk
 
----
-⚙️ Termux Installation Guide (Android)
-
-Follow these steps to run the project on Termux:
-
-1️⃣ Update packages
-
-pkg update && pkg upgrade
-
-2️⃣ Install required system packages
-
-pkg install python clang make cmake ninja pkg-config libopenblas
-
-3️⃣ Set build flags (important for numpy/pandas)
-
-export CFLAGS="-O3"
-export LDFLAGS="-lopenblas"
-
-4️⃣ Upgrade pip tools
-
-pip install --upgrade pip setuptools wheel cython
-
-5️⃣ Install Python dependencies
-
-pip install numpy
-pip install pandas
-pip install flask pillow pytesseract openpyxl
-
-6️⃣ Install Tesseract OCR
-
-pkg install tesseract
-
-7️⃣ Run the app
-
-python app.py
-
-Then open in browser:
-
-http://localhost:5000
-
----
 
 ⚠️ Notes
 
@@ -309,7 +239,7 @@ http://localhost:5000
 💻 Installation (PC / Laptop)
 
 pip install -r requirements.txt
-python app.py
+python contact.py
 
 ---
 
