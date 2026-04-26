@@ -13,3 +13,6 @@ uploads/
 
 # OS files
 .DS_Store
+
+# New Python
+newapp.py
